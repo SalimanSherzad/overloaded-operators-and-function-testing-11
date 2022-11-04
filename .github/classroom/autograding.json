@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "MatrixT()",
+      "setup": "cmake .;make Matrix_Tests",
+      "run": "timeout 5m ./Matrix_Tests \"MatrixT()\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "MatrixT(int, int)",
+      "setup": "cmake .;make Matrix_Tests",
+      "run": "timeout 5m ./Matrix_Tests \"MatrixT(int, int)\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Get/Set Rows and Columns",
+      "setup": "cmake .;make Matrix_Tests",
+      "run": "timeout 5m ./Matrix_Tests \"Get/Set Rows and Columns\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Get/Set Elements",
+      "setup": "cmake .;make Matrix_Tests",
+      "run": "timeout 5m ./Matrix_Tests \"Get/Set Elements\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "operator+",
+      "setup": "cmake .;make Matrix_Tests",
+      "run": "timeout 5m ./Matrix_Tests \"operator+\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "operator-",
+      "setup": "cmake .;make Matrix_Tests",
+      "run": "timeout 5m ./Matrix_Tests \"operator-\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "operator*",
+      "setup": "cmake .;make Matrix_Tests",
+      "run": "timeout 5m ./Matrix_Tests \"operator*\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "operator=",
+      "setup": "cmake .;make Matrix_Tests",
+      "run": "timeout 5m ./Matrix_Tests \"operator+\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "operator==",
+      "setup": "cmake .;make Matrix_Tests",
+      "run": "timeout 5m ./Matrix_Tests \"operator+\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    }
+  ]
+}
