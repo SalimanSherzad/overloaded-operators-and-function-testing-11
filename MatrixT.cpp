@@ -47,7 +47,7 @@ void MatrixT::SetColumns(int newCols) {
 
 void MatrixT::SetRows(int newRows) {
     if (newRows < 0 || newRows > MAX_ROWS){
-        throw "Invalid Size";
+        throw "Invalid size";
     }
     numRows = newRows;
 
