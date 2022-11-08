@@ -95,6 +95,8 @@ int main() {
     Print(matB);
     cout << endl;
 
+
+
     cout << "Testing operator*" << endl;
     matB.SetRows(matA.GetNumCols());
     MatrixT mult = matA*matB;
@@ -136,6 +138,7 @@ int main() {
     cout << endl;
 
     return 0;
+
 }
 
 
