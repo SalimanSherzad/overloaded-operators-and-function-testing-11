@@ -39,7 +39,7 @@ MatrixT::MatrixT(const MatrixT &other) {
 }
 
 void MatrixT::SetColumns(int newCols) {
-    if (newCols < 0 || MAX_COLS >= newCols){
+    if (newCols < 0 || newCols >= MAX_COLS){
         throw "Invalid size";
     }
     numCols = newCols;
